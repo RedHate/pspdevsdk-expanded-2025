@@ -7,7 +7,7 @@ new stuff...
     psputilsforkernel (got an update)
     usb (got an update, now includes usb mic stub and header look in samples for userspace sample)
 
-these require decrypte the plugins to be plugged either via seplugins or by code. you can find them in the game "talkman" then remove the PSP header and decrypt the modules and plug them how you like.
+these require decrypted plugins to be plugged either via seplugins or by code. you can find them in the game "talkman" then remove the PSP header and decrypt the modules and plug them how you like.
     
     libadler
     libbase64
