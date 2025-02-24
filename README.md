@@ -1,14 +1,10 @@
 sorry about the zip file, git was being a jerk so i just zipped it and dropped it in.
 
-new stuff...
+A whole pile of function prototypes added to headers and nids added to stub libraries. Noticed somethings that were only being linked in kernel space that are avaiable in both kernel and userspace and added the stubs to the libpspuser.a, userspace module loading works without and "pspsdk" hackery. The method for loading from userspace is the same as the sample within the kernel directory relating to module loading, just change the module attriubutes.
 
-    gim
-    gmo
-    psputilsforkernel (got an update)
-    usb (got an update, now includes usb mic stub and header look in samples for userspace sample)
+There have been a couple of other changes along the way trying to clean up naming convention in the headers. This part is a work in progress and is not entirely complete. You may run into issues when compiling where some cdef or macro's name is incorrect, gcc should give you the answer but you may need to check the headers too. There is a lot more information in a wide range of headers.
 
-these require decrypted plugins to be plugged either via seplugins or by code. you can find them in the game "talkman" then remove the PSP header and decrypt the modules and plug them how you like.
-    
+Runtime libraries!    
     libadler
     libbase64
     libccc
