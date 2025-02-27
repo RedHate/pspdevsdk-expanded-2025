@@ -1,0 +1,2 @@
+sceVfpu.o: sceVfpu.S pspimport.s
+pspimport.s:

@@ -1,0 +1,2 @@
+sceUsb_driver.o: sceUsb_driver.S pspimport.s
+pspimport.s:

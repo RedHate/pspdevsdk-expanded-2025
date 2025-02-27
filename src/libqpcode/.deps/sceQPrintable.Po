@@ -1,0 +1,2 @@
+sceQPrintable.o: sceQPrintable.S pspimport.s
+pspimport.s:

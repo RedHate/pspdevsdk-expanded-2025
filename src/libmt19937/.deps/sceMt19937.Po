@@ -1,0 +1,2 @@
+sceMt19937.o: sceMt19937.S pspimport.s
+pspimport.s:

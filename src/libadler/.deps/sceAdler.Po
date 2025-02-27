@@ -1,0 +1,2 @@
+sceAdler.o: sceAdler.S pspimport.s
+pspimport.s:

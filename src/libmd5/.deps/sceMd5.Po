@@ -1,0 +1,2 @@
+sceMd5.o: sceMd5.S pspimport.s
+pspimport.s:

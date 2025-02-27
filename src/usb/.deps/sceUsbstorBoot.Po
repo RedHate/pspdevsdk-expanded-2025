@@ -1,0 +1,2 @@
+sceUsbstorBoot.o: sceUsbstorBoot.S pspimport.s
+pspimport.s:
