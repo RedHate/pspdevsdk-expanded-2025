@@ -1,0 +1,72 @@
+loadmodule.o: loadmodule.c /opt/pspdev/psp/include/string.h \
+ /opt/pspdev/psp/include/_ansi.h /opt/pspdev/psp/include/newlib.h \
+ /opt/pspdev/psp/include/_newlib_version.h \
+ /opt/pspdev/psp/include/sys/config.h \
+ /opt/pspdev/psp/include/machine/ieeefp.h \
+ /opt/pspdev/psp/include/sys/features.h \
+ /opt/pspdev/psp/include/sys/reent.h /opt/pspdev/psp/include/_ansi.h \
+ /opt/pspdev/lib/gcc/psp/14.1.0/include/stddef.h \
+ /opt/pspdev/psp/include/sys/cdefs.h \
+ /opt/pspdev/psp/include/machine/_default_types.h \
+ /opt/pspdev/psp/include/sys/_types.h \
+ /opt/pspdev/psp/include/machine/_types.h \
+ /opt/pspdev/psp/include/sys/lock.h /opt/pspdev/psp/include/sys/_locale.h \
+ /opt/pspdev/psp/include/strings.h /opt/pspdev/psp/include/sys/string.h \
+ /opt/pspdev/psp/include/stdio.h \
+ /opt/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
+ /opt/pspdev/psp/include/sys/stdio.h ../../src/user/pspuser.h \
+ ../../src/base/psptypes.h \
+ /opt/pspdev/lib/gcc/psp/14.1.0/include/stdint.h \
+ /opt/pspdev/psp/include/stdint.h /opt/pspdev/psp/include/sys/_intsup.h \
+ /opt/pspdev/psp/include/sys/_stdint.h ../../src/kernel/pspkerneltypes.h \
+ ../../src/user/pspiofilemgr.h ../../src/user/pspiofilemgr_fcntl.h \
+ ../../src/user/pspiofilemgr_stat.h ../../src/user/pspiofilemgr_dirent.h \
+ ../../src/user/pspiofilemgr_devctl.h ../../src/user/psploadexec.h \
+ ../../src/user/pspmoduleinfo.h ../../src/user/pspmodulemgr.h \
+ ../../src/user/pspsysmem.h ../../src/kernel/psploadcore.h \
+ ../../src/user/pspthreadman.h ../../src/debug/pspdebug.h \
+ ../../src/kernel/pspkerror.h ../../src/user/pspstdio.h \
+ ../../src/user/pspintrman.h
+/opt/pspdev/psp/include/string.h:
+/opt/pspdev/psp/include/_ansi.h:
+/opt/pspdev/psp/include/newlib.h:
+/opt/pspdev/psp/include/_newlib_version.h:
+/opt/pspdev/psp/include/sys/config.h:
+/opt/pspdev/psp/include/machine/ieeefp.h:
+/opt/pspdev/psp/include/sys/features.h:
+/opt/pspdev/psp/include/sys/reent.h:
+/opt/pspdev/psp/include/_ansi.h:
+/opt/pspdev/lib/gcc/psp/14.1.0/include/stddef.h:
+/opt/pspdev/psp/include/sys/cdefs.h:
+/opt/pspdev/psp/include/machine/_default_types.h:
+/opt/pspdev/psp/include/sys/_types.h:
+/opt/pspdev/psp/include/machine/_types.h:
+/opt/pspdev/psp/include/sys/lock.h:
+/opt/pspdev/psp/include/sys/_locale.h:
+/opt/pspdev/psp/include/strings.h:
+/opt/pspdev/psp/include/sys/string.h:
+/opt/pspdev/psp/include/stdio.h:
+/opt/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h:
+/opt/pspdev/psp/include/sys/stdio.h:
+../../src/user/pspuser.h:
+../../src/base/psptypes.h:
+/opt/pspdev/lib/gcc/psp/14.1.0/include/stdint.h:
+/opt/pspdev/psp/include/stdint.h:
+/opt/pspdev/psp/include/sys/_intsup.h:
+/opt/pspdev/psp/include/sys/_stdint.h:
+../../src/kernel/pspkerneltypes.h:
+../../src/user/pspiofilemgr.h:
+../../src/user/pspiofilemgr_fcntl.h:
+../../src/user/pspiofilemgr_stat.h:
+../../src/user/pspiofilemgr_dirent.h:
+../../src/user/pspiofilemgr_devctl.h:
+../../src/user/psploadexec.h:
+../../src/user/pspmoduleinfo.h:
+../../src/user/pspmodulemgr.h:
+../../src/user/pspsysmem.h:
+../../src/kernel/psploadcore.h:
+../../src/user/pspthreadman.h:
+../../src/debug/pspdebug.h:
+../../src/kernel/pspkerror.h:
+../../src/user/pspstdio.h:
+../../src/user/pspintrman.h:

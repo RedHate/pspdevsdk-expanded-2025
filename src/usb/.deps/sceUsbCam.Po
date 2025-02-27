@@ -1,0 +1,2 @@
+sceUsbCam.o: sceUsbCam.S pspimport.s
+pspimport.s:

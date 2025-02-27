@@ -1,0 +1,2 @@
+sceBase64.o: sceBase64.S pspimport.s
+pspimport.s:

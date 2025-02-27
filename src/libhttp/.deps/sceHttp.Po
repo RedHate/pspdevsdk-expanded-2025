@@ -1,0 +1,2 @@
+sceHttp.o: sceHttp.S pspimport.s
+pspimport.s:

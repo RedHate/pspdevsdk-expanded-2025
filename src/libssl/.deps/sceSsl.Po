@@ -1,0 +1,2 @@
+sceSsl.o: sceSsl.S pspimport.s
+pspimport.s:

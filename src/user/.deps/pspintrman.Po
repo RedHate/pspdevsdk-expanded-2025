@@ -1,0 +1,19 @@
+pspintrman.o: pspintrman.c pspintrman.h pspkerneltypes.h \
+ ../../src/base/psptypes.h \
+ /opt/pspdev/lib/gcc/psp/14.1.0/include/stdint.h \
+ /opt/pspdev/psp/include/stdint.h \
+ /opt/pspdev/psp/include/machine/_default_types.h \
+ /opt/pspdev/psp/include/sys/features.h \
+ /opt/pspdev/psp/include/_newlib_version.h \
+ /opt/pspdev/psp/include/sys/_intsup.h \
+ /opt/pspdev/psp/include/sys/_stdint.h
+pspintrman.h:
+pspkerneltypes.h:
+../../src/base/psptypes.h:
+/opt/pspdev/lib/gcc/psp/14.1.0/include/stdint.h:
+/opt/pspdev/psp/include/stdint.h:
+/opt/pspdev/psp/include/machine/_default_types.h:
+/opt/pspdev/psp/include/sys/features.h:
+/opt/pspdev/psp/include/_newlib_version.h:
+/opt/pspdev/psp/include/sys/_intsup.h:
+/opt/pspdev/psp/include/sys/_stdint.h:

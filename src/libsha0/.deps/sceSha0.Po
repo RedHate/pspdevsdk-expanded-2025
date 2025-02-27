@@ -1,0 +1,2 @@
+sceSha0.o: sceSha0.S pspimport.s
+pspimport.s:

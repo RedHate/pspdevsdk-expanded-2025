@@ -1,0 +1,2 @@
+sceWave.o: sceWave.S pspimport.s
+pspimport.s:

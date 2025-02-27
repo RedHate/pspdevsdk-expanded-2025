@@ -1,0 +1,2 @@
+sceUsbMic.o: sceUsbMic.S pspimport.s
+pspimport.s:

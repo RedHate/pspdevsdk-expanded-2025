@@ -1,0 +1,2 @@
+sceSas.o: sceSas.S pspimport.s
+pspimport.s:

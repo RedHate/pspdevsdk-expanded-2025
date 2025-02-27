@@ -1,0 +1,2 @@
+sceFont.o: sceFont.S pspimport.s
+pspimport.s:

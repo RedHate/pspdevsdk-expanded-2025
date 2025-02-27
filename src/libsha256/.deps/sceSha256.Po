@@ -1,0 +1,2 @@
+sceSha256.o: sceSha256.S pspimport.s
+pspimport.s:
