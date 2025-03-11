@@ -21,9 +21,11 @@ Runtime libraries!
     libpsmf
     libqpcode
     libsas
+    libsha0
     libsha1
     libsha224
     libsha256
+    libsha384
     libsha512
     libsndp
     libfpu
