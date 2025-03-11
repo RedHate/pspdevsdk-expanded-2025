@@ -4,6 +4,8 @@ A whole pile of function prototypes added to headers and nids added to stub libr
 
 There have been a couple of other changes along the way trying to clean up naming convention in the headers. This part is a work in progress and is not entirely complete. You may run into issues when compiling where some cdef or macro's name is incorrect, gcc should give you the answer but you may need to check the headers too. There is a lot more information in a wide range of headers.
 
+A more complete version of the network API. Now libcglue is no longer required for networking. Berkley sockets will still work I've not removed that, it saves porting code but now if users want to program their code in the proper way they can.
+
 Runtime libraries!    
     libadler
     libbase64
@@ -24,4 +26,4 @@ Runtime libraries!
     libfpu
     libvfpu
     libwave
-
+    ...and more! CALL NOW!
